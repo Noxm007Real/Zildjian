@@ -1,6 +1,5 @@
 "use client";
 import {
-  motion,
   useInView,
   useMotionValue,
   useSpring,
