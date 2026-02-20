@@ -1,7 +1,7 @@
 "use client";
 import { ReactNode, useEffect } from "react";
 
-// @ts-expect-error
+// @ts-expect-error: The Lenis library doesn't have built-in types yet.
 import Lenis from "@studio-freight/lenis";
 
 export default function SmoothScroll({ children }: { children: ReactNode }) {
