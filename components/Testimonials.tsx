@@ -39,9 +39,7 @@ export default function Testimonials() {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.8, ease: "easeInOut" }}
           >
-            <p className="text-3xl md:text-5xl font-semibold text-white italic mb-8">
-              "{quotes[index].text}"
-            </p>
+            <p className="text-3xl md:text-5xl font-semibold text-white italic mb-8">&quot;{quotes[index].text}&quot;</p>
             <p className="text-[#b07d47] uppercase tracking-widest font-bold text-sm md:text-base">
               — {quotes[index].author}
             </p>
