@@ -1,7 +1,7 @@
 "use client";
 import { ReactNode, useEffect } from "react";
 
-// @ts-ignore
+// @ts-expect-error
 import Lenis from "@studio-freight/lenis";
 
 export default function SmoothScroll({ children }: { children: ReactNode }) {
